@@ -45,7 +45,7 @@ See **[live-demo](/docs/user-guide/live-demo/)** page for more details how to ge
 
 {% capture tabspec %}token
 A,get-token.sh,shell,resources/get-token.sh,/docs/reference/resources/get-token.sh
-B,resonse.json,json,resources/get-token-response.json,/docs/reference/resources/get-token-response.json{% endcapture %}
+B,response.json,json,resources/get-token-response.json,/docs/reference/resources/get-token-response.json{% endcapture %}
 {% include tabs.html %}
 
  - Now, you should set  'X-Authorization' to "Bearer $YOUR_JWT_TOKEN"  
